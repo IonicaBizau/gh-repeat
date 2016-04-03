@@ -1,6 +1,6 @@
 {
-  "name": "gh-me",
-  "description": "Global actions on multiple GitHub repositories.",
+  "name": "gh-repeat",
+  "description": "Repetitive actions on multiple GitHub repositories.",
   "keywords": [
     "gh",
     "me",
@@ -20,10 +20,14 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/gh-me.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/gh-repeat.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/gh-me/issues"
+    "url": "https://github.com/IonicaBizau/gh-repeat/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/gh-me#readme"
+  "homepage": "https://github.com/IonicaBizau/gh-repeat#readme",
+  "dependencies": {
+    "gh-repos": "^1.0.0",
+    "same-time": "^2.3.1"
+  }
 }
