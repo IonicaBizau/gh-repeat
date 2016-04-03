@@ -56,9 +56,9 @@ full name is provided, only that specific repository will be matched.
 
 #### Return
 - **EventEmitter** An `EventEmitter` instance emitting the following events:
- - `repo-error` (err, repo): Emitted if the forking process failed for a specific repository.
- - `repo-success` (data, repo): Emitted when a repository failed to be forked.
- - `repo-progress` (err, data): Emitted after trying to fork a repository (if it was a success, the error will be `null`).
+ - `repo-error` (err, repo): Emitted if the request failed for a specific repository.
+ - `repo-success` (data, repo): Emitted the request is successful.
+ - `repo-progress` (err, data): Emitted running the request to a repository (if it was a success, the error will be `null`).
  - `done` (err, data): Emitted after all the requests are executed.
 
         
