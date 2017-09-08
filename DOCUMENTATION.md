@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Run a repetitive action on multiple GitHub repositories.
 
 #### Params
+
 - **String** `selector`: If a GitHub owner (user or organization) is provided, all accesible repositories will be matched. If a repository
 full name is provided, only that specific repository will be matched.
 - **Function** `doWhat`: A function which should return an object cocontaining:
